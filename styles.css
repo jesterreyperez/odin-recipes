@@ -36,3 +36,11 @@ ul {
 ol {
     padding-left: 20px;
 }
+
+/* Image styling */
+img {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
