@@ -44,3 +44,8 @@ img {
     display: block;
     margin: 20px auto;
 }
+
+/* Paragraph styles */
+p {
+    margin: 10px 0;
+}
