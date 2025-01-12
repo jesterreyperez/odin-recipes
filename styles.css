@@ -49,3 +49,11 @@ img {
 p {
     margin: 10px 0;
 }
+
+/* Adding some spacing between sections */
+
+h2 {
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
