@@ -1,20 +1,34 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* General body styles */
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    margin: 0;
-    padding: 0;
 }
 
 /* Header styles */
-h1 {
+header {
+    background-color: #3498db; /* Blue background */
+    color:#3498db;
+    padding: 20px 0;
+}
+
+header h1 {
     text-align: center;
-    color: #2c3e50;
-    background-color: #ecf0f1;
-    padding: 20px;
-    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
 }
 
 /* Links styling */
@@ -23,18 +37,36 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+/* Recipe List */
+.recipes {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.recipes .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Hover effects for links */
+ul li a:hover {
+    color: #f0a49c; /* Red on hover */
     text-decoration: underline;
 }
 
-/* Styling for the reecipe pages */
+/* Styling for the recipe pages */
 ul {
-    list-style-type: square;
-    padding-left: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;    
 }
 
 ul li {
-    margin: 10px 0; /* Add space between each list item */
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .container {
