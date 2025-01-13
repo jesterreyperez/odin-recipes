@@ -27,10 +27,22 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Recipe page specific styling */
+/* Styling for the reecipe pages */
 ul {
     list-style-type: square;
     padding-left: 20px;
+}
+
+ul li {
+    margin: 10px 0; /* Add space between each list item */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 
 ol {
