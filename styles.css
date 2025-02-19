@@ -1,103 +1,120 @@
 /* Basic Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* General body styles */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin-top: 20px;
 }
 
 /* Header styles */
 header {
-    background-color: #3498db; /* Blue background */
-    color:#3498db;
-    padding: 20px 0;
+  background-color: #3498db; /* Blue background */
+  color: #3498db;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
 }
 
 header h1 {
-    text-align: center;
-    font-size: 3em;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #3498db;
 }
 
 header p {
-    text-align: center;
-    font-size: 1.2em;
-    margin-top: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #3498db;
 }
 
 /* Links styling */
 a {
-    color: #3498db;
-    text-decoration: none;
+  color: #3498db;
+  text-decoration: none;
 }
 
 /* Recipe List */
 .recipes {
-    background-color: #fff;
-    padding: 20px;
+  background-color: #fff;
+  padding: 20px;
 }
 
 .recipes .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* Hover effects for links */
 ul li a:hover {
-    color: #f0a49c; /* Red on hover */
-    text-decoration: underline;
+  color: #f0a49c; /* Red on hover */
+  text-decoration: underline;
 }
 
 /* Styling for the recipe pages */
 ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;    
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 ul li {
-    background-color: #ecf0f1;
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 
 ol {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 /* Image styling */
 img {
-    max-width: 500px;
-    height: auto;
-    display: block;
-    margin: 20px auto;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
 }
 
 /* Paragraph styles */
 p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 /* Adding some spacing between sections */
 
 h2 {
-    margin-top: 30px;
-    color: #2c3e50;
+  margin-top: 30px;
+  color: #2c3e50;
 }
 
+/* Footer styles */
+footer {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
